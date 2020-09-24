@@ -7,7 +7,7 @@ print('Hello World!')
 print('안녕하세요')
 ~~~
 <br><br>
-~~~
+~~~python
 number1 = 1
 pi = 3.14
 flag = True
@@ -23,7 +23,7 @@ s2 = pi + number1
 print(s,s2)
 ~~~
 <br><br>
-~~~~
+~~~~python
 x=1
 y=2
 
@@ -35,7 +35,7 @@ else:
     print('x와 y가 같습니다.') 
 ~~~
 <br><br>
-~~~
+~~~python
 scope = [1,2,3,4,5]
 for x in scope:
     print(x, end=" ")
@@ -64,7 +64,7 @@ for c in range(2,10,3):
     print(c,end=" ")
 ~~~~
 <br><br>
-~~~
+~~~python
 scope = [1,2,3,4,5]
 for x in scope:
     print(x)
@@ -81,7 +81,7 @@ else:
     print('Perfect')
 ~~~
 <br><br>
-~~~
+~~~python
 x=0
 while x<10:
     x+=1
