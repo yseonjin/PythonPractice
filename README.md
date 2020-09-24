@@ -3,15 +3,11 @@ PythonPractice/ Practice ,  basic
 <br><br>Python을 처음 시작하면서, 문법예제 연습을 위해 만들었습니다.
 <br><br>
 ~~~
-Hello.py 
-<br>
 print('Hello World!')
 print('안녕하세요')
 ~~~
 <br><br>
 ~~~
-py01.py 
-<br>
 number1 = 1
 pi = 3.14
 flag = True
@@ -28,8 +24,6 @@ print(s,s2)
 ~~~
 <br><br>
 ~~~~
-py02.py 
-<br>
 x=1
 y=2
 
@@ -41,8 +35,7 @@ else:
     print('x와 y가 같습니다.') 
 ~~~
 <br><br>
- py03.py 
-<br>
+~~~
 scope = [1,2,3,4,5]
 for x in scope:
     print(x, end=" ")
@@ -72,8 +65,6 @@ for c in range(2,10,3):
 ~~~~
 <br><br>
 ~~~
-py04.py 
-<br>
 scope = [1,2,3,4,5]
 for x in scope:
     print(x)
@@ -91,8 +82,6 @@ else:
 ~~~
 <br><br>
 ~~~
-py05.py 
-<br>
 x=0
 while x<10:
     x+=1
