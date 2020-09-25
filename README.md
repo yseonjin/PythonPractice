@@ -62,7 +62,8 @@ print(' ')
 
 for c in range(2,10,3):
     print(c,end=" ")
-~~~~
+~~~
+
 <br><br>
 ~~~python
 scope = [1,2,3,4,5]
