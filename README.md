@@ -23,7 +23,7 @@ s2 = pi + number1
 print(s,s2)
 ~~~
 <br><br>
-~~~~python
+~~~python
 x=1
 y=2
 
