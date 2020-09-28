@@ -146,4 +146,103 @@ print('%d + %d = %d' %(num1,num2, num1+num2))
 print('작년 세계경제 성장률은 전년에 비해 %d%% 더 증가했다.'%num1)
 ~~~
 <br><br>
+~~~python
+def add_number(n1,n2):
+    ret = n1+ n2
+    return ret
+
+def add_txt(tx1,tx2):
+    print(tx1+tx2)
+    
+ans = add_number(10, 15)
+print(ans)
+
+tx1 ='대한민국~'
+tx2 ='만세!!'
+add_txt(tx1, tx2)
+~~~
+<br><br>
+
+~~~python
+param = 10
+strdata='전역변수'
+
+def func1():
+    strdata='지역변수'
+    print(strdata)
+    
+def func2(param):
+    param = 1
+    
+def func3():
+    global param
+    param = 50
+    
+func1()
+print(strdata)
+print(param)
+func2(param)
+print(param)
+func3()
+print(param)
+
+    
+~~~
+<br><br>
+~~~python
+import py13
+
+ret1 = py13.add_txt('대한민국', '1등')
+ret2 = py13.reverse(1, 2, 3)
+
+print(ret1)
+print(ret2)
+~~~
+<br><br>
+~~~python
+def add_txt(t1,t2):
+    return t1 + ':'+ t2
+
+def reverse(x,y,z):
+    return z,y,x
+
+
+~~~
+<br><br>
+~~~python
+import time
+
+print('5초간 프로그램을 정지합니다.')
+
+time.sleep(5)
+print('5초가 지났습니다.')
+~~~
+<br><br>
+~~~python
+class MyClass:
+    var='안녕하세요'
+    def sayHello(self):
+        print(self.var)
+        
+obj =MyClass()
+print(obj.var)
+obj.sayHello()
+~~~
+<br><br>
+~~~python
+try:
+    print('안녕하세요.')
+    print(param)
+except Exception as e:
+    print (e)
+else:
+    print('예외가 발생하지 않았습니다.')
+finally:
+    print('무조건 실행해야하는 코드')
+  
+~~~
+<br><br>
+
+
+
 
