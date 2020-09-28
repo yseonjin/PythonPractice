@@ -242,6 +242,72 @@ finally:
   
 ~~~
 <br><br>
+~~~python
+k =input('<값>을 입력하세요.')
+print('당신이 입력한값은<'+k+'>입니다.')
+~~~
+<br><br>
+~~~python
+numdata =57
+strdata='python'
+listdata=[1,2,3]
+def func():
+    print('Hello')
+    
+print(type(numdata))
+print(type(strdata))
+print(type(listdata))
+print(type(func))
+  
+~~~
+<br><br>
+~~~python
+a = 11113
+b =23
+ret=a%b 
+print('<%d>를 <%d>로 나누면 <%d>가 나머지로 남습니다.'%(a,b,ret))
+  
+~~~
+<br><br>
+~~~python
+a =1113
+b=23
+ret1,ret2 = divmod(a,b)
+
+print('<%d/%d>는 몫이 <%d> 나머지가 <%d>입니다.'%(a,b,ret1,ret2))
+  
+~~~
+<br><br>
+~~~python
+ret1=round(1118)
+ret2=round(16.554)
+ret3=round(1118,-1)
+ret4=round(16.554,2)
+
+print(ret1)
+print(ret2)
+print(ret3)
+print(ret4)
+  
+~~~
+<br><br>
+~~~python
+def getPrime(x):
+    if x%2 ==0:
+        return 
+    
+    for i in range(3,int(x/2),2):
+        if x % i == 0:
+            break
+    
+    else:
+        return x
+    
+listdata = [117,119,1113,11113,11119]
+ret = filter(getPrime,listdata)
+print(list(ret))
+~~~
+<br><br>
 
 
 
