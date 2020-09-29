@@ -309,6 +309,94 @@ print(list(ret))
 ~~~
 <br><br>
 
+~~~python
+listdata = [9.96, 1.27, 5.07,6.45, 8.38, 9.29]
+maxval = max(listdata)
+minval = min(listdata)
+print(maxval);print(minval)
+
+print('----------------------')
+
+txt = 'Alotofthingsoccuerachday'
+maxval = max(txt)
+minval = min(txt)
+print(maxval);print(minval)
+
+print('----------------------')
+
+maxval =  max(2+3, 2*3, 2**3, 3**2)
+minval = min('abz','a12')
+print(maxval);print(minval)
+~~~
+<br><br>
+
+~~~python
+txt1 = 'A tale that was not right'
+txt2 = '이 또한 지나가리라'
+print(txt1[5])
+print(txt2[-2])
+
+print('-----------------------')
+
+print(txt1[3:7])
+print(txt1[:6])
+print(txt2[-4:])
+
+~~~
+<br><br>
+
+~~~python
+txt = 'This Is Python'
+
+for i in range(len(txt)):
+    print(txt[:i+1])
+~~~
+<br><br>
+
+~~~python
+txt = 'Hello World'
+ret1=txt[::-1]
+print(ret1)
+
+ret2=txt[::-2]
+print(ret2)
+
+ret3 = txt[2::-2]
+print(ret3)
+
+~~~
+<br><br>
+
+~~~python
+listdata = list(range(5))
+ret1 = reversed(listdata)
+print('원본리스트',end='');print(listdata);
+listdata.reverse()
+print(listdata)
+print('역순리스트',end='');print(list(ret1))
+
+ret2 = listdata[::-1]
+print('슬라이싱 이용',end='');print(ret2)
+
+~~~
+<br><br>
+
+~~~python
+numstr = input('숫자를 입력하세요: ')
+try: 
+    num = int(numstr)
+    print('당신이 입력한 숫자는 정수 <%d>입니다.'%num)
+except:
+    try:
+        num = float(numstr)
+        print('당신이 입력한 숫자는 실수<%f>입니다.'%num)
+    except:
+        print('++++숫자를 입력하세요~+++++')
+
+~~~
+<br><br>
+
+
 
 
 
